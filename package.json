@@ -1,0 +1,27 @@
+{
+  "name": "serverless-demo",
+  "version": "1.0.0",
+  "description": "nodejs 为基础的 serverless 实现 demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangcaiqian/serverless-demo.git"
+  },
+  "keywords": [
+    "serverless",
+    "nodejs"
+  ],
+  "author": "zhangjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangcaiqian/serverless-demo/issues"
+  },
+  "homepage": "https://github.com/zhangcaiqian/serverless-demo#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "vm2": "^3.9.3"
+  }
+}
