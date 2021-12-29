@@ -8,7 +8,9 @@ app.listen(3000);
 
 async function run(path) {
     return new Promise((resolve, reject) => {
+        
         const child = child_process.fork('./child.js');
+
         child.on('message', resolve);
 
         try {
